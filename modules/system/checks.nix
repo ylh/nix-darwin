@@ -143,7 +143,7 @@ let
     if ! test -e "$darwinPath"; then
         echo "[1;31merror: Changed <darwin> but target does not exist, aborting activation[0m" >&2
         echo "Add the darwin repo as a channel or set nix.nixPath:" >&2
-        echo "$ nix-channel --add https://github.com/LnL7/nix-darwin/archive/master.tar.gz darwin" >&2
+        echo "$ nix-channel --add https://github.com/ylh/nix-darwin/archive/nix-multi-workaround.tar.gz darwin" >&2
         echo "$ nix-channel --update" >&2
         echo >&2
         echo "or set" >&2
